@@ -25,10 +25,10 @@ public class Player : MonoBehaviour
             GetComponent<Renderer>().material.color = Color.red;
         }
 
-        GameObject go = GameObject.Find("Cube");
+/*        GameObject go = GameObject.Find("Cube");
         if(go)
         {
             go.GetComponent<Renderer>().material.color = Color.blue;
-        }
+        }*/
     }
 }
